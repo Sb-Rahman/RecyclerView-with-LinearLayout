@@ -35,7 +35,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyHold
 
     @Override
     public void onBindViewHolder(@NonNull MyHolder holder, int position) {
-        //something went wrong with this section
+        
         holder.recyclerImg.setImageResource(arrayList.get(position).getRecyclerImg());
         holder.recyclerText.setText(arrayList.get(position).getRecyclerText());
     }
