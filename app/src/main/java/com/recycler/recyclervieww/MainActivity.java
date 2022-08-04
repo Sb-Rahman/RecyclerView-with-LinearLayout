@@ -34,7 +34,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void allData() {
-        arrayList=new ArrayList<Pojo>();
+        arrayList=new ArrayList<>();
+        arrayList.add(new Pojo(R.drawable.sample_img,"This is simple text"));
+        arrayList.add(new Pojo(R.drawable.bipul,"This is simple text"));
+        arrayList.add(new Pojo(R.drawable.raw,"This is simple text"));
+        arrayList.add(new Pojo(R.drawable.sample_img,"This is simple text"));
+        arrayList.add(new Pojo(R.drawable.bipul,"This is simple text"));
+        arrayList.add(new Pojo(R.drawable.raw,"This is simple text"));
         arrayList.add(new Pojo(R.drawable.sample_img,"This is simple text"));
         arrayList.add(new Pojo(R.drawable.bipul,"This is simple text"));
         arrayList.add(new Pojo(R.drawable.raw,"This is simple text"));
